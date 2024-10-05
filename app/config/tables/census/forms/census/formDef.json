@@ -30,12 +30,22 @@
       {
         "type": "text",
         "name": "name",
+        "display": {
+          "prompt": {
+            "text": "What is your name?"
+          }
+        },
         "_row_num": 2
       },
       {
         "type": "select_one",
         "values_list": "yesno",
         "name": "isAdult",
+        "display": {
+          "prompt": {
+            "text": "Are you 18 years or older?"
+          }
+        },
         "_row_num": 3
       }
     ],
@@ -198,6 +208,11 @@
           {
             "type": "text",
             "name": "name",
+            "display": {
+              "prompt": {
+                "text": "What is your name?"
+              }
+            },
             "_row_num": 2,
             "__rowNum__": 1,
             "_token_type": "prompt",
@@ -209,6 +224,11 @@
             "type": "select_one",
             "values_list": "yesno",
             "name": "isAdult",
+            "display": {
+              "prompt": {
+                "text": "Are you 18 years or older?"
+              }
+            },
             "_row_num": 3,
             "__rowNum__": 2,
             "_token_type": "prompt",
